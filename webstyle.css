@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+}
+.me{
+    background-image: url(bb.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height:80px;
+    width:100%;
+    background: rgba(0,0,0,0.4);
+}
+.logo{
+    width:100px;
+    height:100px;
+    margin-top:40px;
+    padding:20px 100px;
+
+}
+.navbar ul{
+    float: right;
+    margin-right:20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin:0 8px;
+    display:inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding:6px 12px;
+    font-family: 'roboto',sans-serif;
+    font-size:20px;
+    transition: 0.4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius:2px;
+}
+.me .center{
+    position:absolute;
+    top:50%;
+    left:55%;
+    transform:translate(-60%, -60%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color:whitesmoke;
+    font-size: 70px;
+    font-weight: bold;
+    width:900px;
+    text-align: center;
+}
+.center h2{
+    color:white;
+    font-size: 50px;
+    font-weight: bold;
+    width:850px;
+    margin-top: 10px;
+    text-align: center;
+}
+.center .btn{
+    margin:35px 280px;
+}
+.btn button{
+    height:50px;
+    width:150px;
+    font-size:18px;
+    font-weight:bold;
+    color:#ffb3b3;
+    background: red;
+    border:1px solid #cc0000;
+    outline:none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 25px;
+}
+.btn .b2{
+    margin-left:25px;
+}
+.btn button:hover{
+    background:#cc0000;
+}
+
